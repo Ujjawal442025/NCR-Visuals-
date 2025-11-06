@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Award-winning photography portfolio specializing in weddings, portraits, and events. Book your session today.">
+    <meta name="keywords" content="photography, wedding photographer, portrait photography, event photography, professional photographer">
+    <title>NCR Visuals | Award-Winning Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="style.css"/>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loaderimg">
+            <img src="logo.png" />
+        </div>
+        <div class="loader-logo">NCR Visuals</div>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+    
+    <!-- 3D Camera Transition -->
+    <div class="camera-transition" id="cameraTransition">
+        <i class="fas fa-camera camera-icon"></i>
+    </div>
+    
+    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img class="logoimg" src="logo.png" width="40rem" height="40rem"/>
+                <p>NCR Visuals</p>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#booking">Book</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        
+        <!-- Floating Botanical Elements -->
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 300'%3E%3Cpath d='M100 0 Q80 50 90 100 Q70 150 85 200 Q75 250 90 300' stroke='%232d5845' stroke-width='3' fill='none'/%3E%3Cellipse cx='70' cy='50' rx='25' ry='15' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='110' cy='100' rx='20' ry='12' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='70' cy='150' rx='28' ry='16' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='105' cy='200' rx='22' ry='14' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='75' cy='250' rx='26' ry='15' fill='%232d5845' opacity='0.6'/%3E%3C/svg%3E" class="floating-leaf floating-leaf-1" alt="">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 300'%3E%3Cpath d='M100 0 Q120 50 110 100 Q130 150 115 200 Q125 250 110 300' stroke='%232d5845' stroke-width='3' fill='none'/%3E%3Cellipse cx='130' cy='50' rx='25' ry='15' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='90' cy='100' rx='20' ry='12' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='130' cy='150' rx='28' ry='16' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='95' cy='200' rx='22' ry='14' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='125' cy='250' rx='26' ry='15' fill='%232d5845' opacity='0.6'/%3E%3C/svg%3E" class="floating-leaf floating-leaf-2" alt="">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 300'%3E%3Cpath d='M100 0 Q80 50 90 100 Q70 150 85 200 Q75 250 90 300' stroke='%232d5845' stroke-width='3' fill='none'/%3E%3Cellipse cx='70' cy='50' rx='25' ry='15' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='110' cy='100' rx='20' ry='12' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='70' cy='150' rx='28' ry='16' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='105' cy='200' rx='22' ry='14' fill='%232d5845' opacity='0.6'/%3E%3Cellipse cx='75' cy='250' rx='26' ry='15' fill='%232d5845' opacity='0.6'/%3E%3C/svg%3E" class="floating-leaf floating-leaf-3" alt="">
+
+        <!-- 3D Rotating Camera -->
+        <div class="hero-camera-3d" id="heroCamera">
+            <i class="fas fa-camera"></i>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-subtitle">Award-Winning Photography</div>
+            <h1>Capturing <strong>Life's Precious Moments</strong></h1>
+            <p class="hero-description">Professional photography services for <b>Weddings, Brands, Events</b>, and more. Creating timeless memories with artistic excellence.</p>
+            <a href="#booking" class="hero-cta">
+                <span>Book Your Session</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#portfolio" class="hero-cta hero-cta-secondary">
+                <span>View Portfolio</span>
+                    <i class="fas fa-images"></i>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="section-header">
+            <div class="section-label">Portfolio</div>
+            <h2>Featured Work</h2>
+            <p>Explore a curated selection of my photography showcasing different styles and moments captured with passion and precision.</p>
+        </div>
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="weddings">Weddings</button>
+            <button class="filter-btn" data-filter="portraits">Portraits</button>
+            <button class="filter-btn" data-filter="events">Events</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="weddings">
+                <div class="portfolio-item-img"><img src="Wedding.jpg" alt="Wedding photo" /></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Weddings</span>
+                    <h3 class="portfolio-title">Elegant Wedding</h3>
+                    <p class="portfolio-desc">A beautiful celebration of love and commitment</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="portraits">
+                <div class="portfolio-item-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"><img src="Portrait1.jpg" alt="" /></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Portraits</span>
+                    <h3 class="portfolio-title">Studio Portrait</h3>
+                    <p class="portfolio-desc">Professional headshots and personal branding</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="events">
+                <div class="portfolio-item-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Events</span>
+                    <h3 class="portfolio-title">Corporate Event</h3>
+                    <p class="portfolio-desc">Professional business conference coverage</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="nature">
+                <div class="portfolio-item-img" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"a></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Nature</span>
+                    <h3 class="portfolio-title">Landscape Vista</h3>
+                    <p class="portfolio-desc">Breathtaking natural scenery and wildlife</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="weddings">
+                <div class="portfolio-item-img" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"><img src="Wedding2.jpg" alt="" /></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Weddings</span>
+                    <h3 class="portfolio-title">Garden Ceremony</h3>
+                    <p class="portfolio-desc">Outdoor wedding in stunning garden setting</p>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="portraits">
+                <div class="portfolio-item-img" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"><img src="Portrait.jpg" alt="" /></div>
+                <div class="portfolio-overlay">
+                    <span class="portfolio-category">Portraits</span>
+                    <h3 class="portfolio-title">Fashion Portrait</h3>
+                    <p class="portfolio-desc">Editorial and fashion photography</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header">
+            <div class="section-label">About Me</div>
+            <h2>The Artist Behind the Lens</h2>
+            <p>Passionate about storytelling through imagery and dedicated to capturing authentic moments.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image">
+            </div>
+            <div class="about-content">
+                <h3>Hi, I'm <span>Sundaram</span></h3>
+                <p>With over 10 years of experience in professional photography, I specialize in capturing authentic moments that tell your unique story. My approach combines artistic vision with technical expertise to create timeless images.</p>
+                <p>From intimate weddings to grand corporate events, I bring passion, creativity, and meticulous attention to detail to every project. I believe great photography is about connection—understanding your vision and bringing it to life.</p>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-number" data-target="500">0</span>+
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number" data-target="15">0</span>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number" data-target="10">0</span>+
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+                <a href="#booking" class="hero-cta">
+                    <span>Work With Me</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <div class="section-header">
+            <div class="section-label">Book a Session</div>
+            <h2>Let's Create Together</h2>
+            <p>Fill out the form below and I'll get back to you within 24 hours to discuss your photography needs.</p>
+        </div>
+        <div class="booking-wrapper">
+            <h2 class="text-right" >Book a Fantastic Session </h2>
+            <h2 class="text-left" >With Us!!</h2>
+            <img src="img.png"/>
+            <form id="bookingForm" autocomplete="off" method="post" name="google-sheet">
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label>Full Name *</label>
+                        <input type="text" name="fullname" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Email Address *</label>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label>Phone Number *</label>
+                        <input type="tel" name="phonenumber" required>
+                    </div>
+                    <div class="form-field">
+                        <label>Preferred Date *</label>
+                        <input type="date" name="date" required>
+                    </div>
+                </div>
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label>Event Type *</label>
+                        <select name="evnt" required>
+                            <option value="Not Selected">Select event type</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="portrait">Portrait Session</option>
+                            <option value="event">Corporate Event</option>
+                            <option value="nature">Nature/Landscape</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label>Location(Your City/State) *</label>
+                        <input type="text" name="location" required>
+                    </div>
+                </div>
+                <button type="submit" name="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Submit Booking Request
+                </button>
+                <div class="success-message" id="bookingSuccess">
+                    <i class="fas fa-check-circle"></i> Thank you! Your booking request has been received. I'll get back to you within 24 hours.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="section-header">
+            <div class="section-label">Testimonials</div>
+            <h2>Client Experiences</h2>
+            <p>What my clients say about working with me and the results we achieved together.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text"> NCR Visuals captured our wedding day perfectly! Every emotion, every detail was beautifully documented. The photos are absolutely stunning and we couldn't be happier with the results.</p>
+                <div class="testimonial-author">
+                    <div class="author-img"></div>
+                    <div class="author-info">
+                        <h4>Sarah & Michael Johnson</h4>
+                        <p>Wedding Photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text"> NCR Visuals captured our wedding day perfectly! Every emotion, every detail was beautifully documented. The photos are absolutely stunning and we couldn't be happier with the results.</p>
+                <div class="testimonial-author">
+                    <div class="author-img"></div>
+                    <div class="author-info">
+                        <h4>Sarah & Michael Johnson</h4>
+                        <p>Wedding Photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text"> NCR Visuals captured our wedding day perfectly! Every emotion, every detail was beautifully documented. The photos are absolutely stunning and we couldn't be happier with the results.</p>
+                <div class="testimonial-author">
+                    <div class="author-img"></div>
+                    <div class="author-info">
+                        <h4>Sarah & Michael Johnson</h4>
+                        <p>Wedding Photography</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">Professional, creative, and made me feel completely comfortable during the shoot. The portraits exceeded my expectations and I've received so many compliments on them!</p>
+                <div class="testimonial-author">
+                    <div class="author-img"></div>
+                    <div class="author-info">
+                        <h4>Jennifer Lee</h4>
+                        <p>Portrait Session</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">Exceptional quality and attention to detail. NCR Visuals delivered everything on time and went above and beyond to capture our corporate event perfectly. Highly recommended!</p>
+                <div class="testimonial-author">
+                    <div class="author-img"></div>
+                    <div class="author-info">
+                        <h4>David Thompson</h4>
+                        <p>Corporate Event</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">
+            <div class="section-label">Get In Touch</div>
+            <h2>Let's Start a Conversation</h2>
+            <p>Have questions or want to discuss your photography needs? I'd love to hear from you.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <p> +91 9555376616 </p>
+                        <p> +91 9953875753<b>(Contact for Website Development)</b> </p>
+                    </div>
+                </div>
+                <div class="contact-box1">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>ncrvisualsteam@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Location</h4>
+                        <p>Delhi NCR</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/lenswaalebhaiya?igsh=MWZqd2J3NHpkbWpxaA==" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ujjawal-kumar-jha-03110b371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" aria-label="Linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Pinterest">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form-wrapper">
+            <h2 class="text-right" >Contact Us</h2>
+            <img src="img.png"/>
+                <form id="contactForm">
+                    <div class="form-fiel">
+                        <label>Your Name *</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-fiel">
+                        <label>Your Email *</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-fiel">
+                        <label>Subject *</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-fiel">
+                        <label>Message *</label>
+                        <textarea required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <div class="success-message" id="contactSuccess">
+                        <i class="fas fa-check-circle"></i> Message sent successfully! I'll respond within 24 hours.
+                    </div>
+                </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 NCR Visuals Photography. All rights reserved.</p>
+        <p>Crafted with passion for capturing life's beautiful moments.</p>
+    </footer>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkJ3PGILIcHw-ONFCCpiyr1MhpKBbmzeHLVJWe9Q5ba-Z7e3TIzalWJ_k0rIKJySzg/exec'
+        const form = document.forms['google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
